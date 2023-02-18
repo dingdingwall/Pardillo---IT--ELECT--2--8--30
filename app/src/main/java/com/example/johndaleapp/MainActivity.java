@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i(TAG, "button clicker");
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
             }
 
 
